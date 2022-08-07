@@ -1,0 +1,17 @@
+body {
+    background-image: url("heroImage.jpg");
+    background-color:black;
+    color: whitesmoke;
+    overflow-x:hidden;
+}
+
+#navcontainer {
+    background: rgba(0, 0, 0, .5);
+}
+
+#content {
+    color: black;
+    padding: 3rem;
+    background-color: rgba(255, 255, 255, .95);
+    margin: 3rem;
+}
