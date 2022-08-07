@@ -1,19 +1,42 @@
 body {
     /*background-image: url("heroImage.jpg");
     background-color: #78787E;*/
-    background-color: #F0F0FC;
+    background-color: #f0f0fc;
     overflow-x:hidden;
+    position: relative;
 }
 
 #navcontainer {
-    background-color:#2E5266;
+    background-color: #2e5266;
 }
 
 #content {
     color: black;
-    background-color: white;
-    width: 80%;
+    background-color: rgba(255, 255, 255, 1.0);
+    width: 70%;
     padding: 1rem 2rem;
     margin: auto;
-    margin-top: 1rem;
+    margin-top: 5rem;
+    z-index: 0;
+    position:absolute;
+    left:15%
+}
+
+#bannerContainer {
+    background-image: url(heroImage3.png);
+    z-index:-1;
+    margin:auto;
+    position:absolute;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:block;
+}
+
+#contentOnBanner {
+    position:relative;
+}
+
+img {
+    width:100%;
 }
